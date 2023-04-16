@@ -1,0 +1,461 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+li, a, button{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+header{
+    background-color: rgb(194, 217, 252);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 3%;
+}
+
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+    width: 120px;
+    height: auto;
+}
+
+.nav__links{
+    background-color: rgb(194, 217, 252);
+    list-style: none;
+}
+
+.nav__links li{
+     display: inline-block;
+     padding: 0px 15px;
+}
+
+.nav__links li a {
+    color: black;
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button{
+    color: black
+    margin-left:= 20px;
+    padding: 9px 25px;
+    background-color:  rgba(0,136,169,1 );
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color: rgba(0,136,169,0.8);
+}
+
+.footer{
+    background-color: #24252A;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+}
+
+.nav_footer{
+    background-color: #24252A;
+    display: flex;
+}
+
+.secondLI{
+    background-color: #24252A;
+    display: flex:
+    padding: 50px;
+    margin: 20px;
+    list-style: none;
+}
+
+
+#footer{
+    color: white
+    
+}
+
+.cover{
+    margin-top: 50px;
+    margin-left: 0px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.box{
+    background-color: #dcf6fd;
+    margin-left: 60px;
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: 40px;
+}
+
+#missini{
+    width: 150px;
+    height: auto;
+}
+
+#cinneplex{
+    width: 170px;
+    height: auto;
+}
+
+#besaSecurity{
+    width: 130px;
+    height: auto;
+}
+
+#gjirafa50{
+    margin-top: 20px;
+    width: 170px;
+    height: auto;
+}
+
+.maps{
+    color: black;
+    font-size: 14px;
+}
+
+.bigImage{
+width: 100vw;
+height: 90vh;
+position: relative;
+background-image: url(background.jpg);
+background-size: cover;
+}
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    font-size: 26px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.firstRow img {
+    border-radius: 7%;
+    border-bottom: none;
+}
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+#vozites {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+.p2{
+    font-size: 40px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+    list-style: none;
+}
+#callCenter {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+#kamarier {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+a:link {
+    text-decoration: none;
+}
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+
+}
+#programer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+.p2{
+    font-size: 40px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+    list-style: none;
+}
+#dezigner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+#architect {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+a:link {
+    text-decoration: none;
+}
+.secondRow img {
+    border-radius: 7%;
+    border-bottom: none;
+}
+
+
+#devolli{
+    width: 130px;
+    height: auto;
+}
+
+#interex{
+    width: 150px;
+    height: auto;
+}
+
+
+
+#solid{
+    width: 130px;
+    height: auto;
+}
+
+#emerald{
+    width: 130px;
+    height: auto;
+}
+
+
+#gorenje{
+    width: 100px;
+    height: auto;
+}
+
+.box1{
+    background-color: #dcf6fd;
+    margin-left: 60px;
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.firstRow img {
+    border-radius: 7%;
+    border-bottom: none;
+}
+.firstRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+}
+#vozites {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+.p2{
+    font-size: 40px;
+    color: brown;
+    font-family: cursive;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+    list-style: none;
+}
+#callCenter {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+#kamarier {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+a:link {
+    text-decoration: none;
+}
+.secondRow {
+    display: flex;
+    justify-content: space-between;
+
+}
+#programer {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+.p2{
+    font-size: 40px;
+    color: rgb(252, 168, 168);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-right: 10px;
+    list-style: none;
+}
+#dezigner {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+#architect {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightblue;
+    border-radius: 7%;
+}
+a:link {
+    text-decoration: none;
+}
+.secondRow img {
+    border-radius: 7%;
+    border-bottom: none;
+}
+
+.cards{ 
+    height: 900px; 
+    margin-top: -49px;
+    margin-bottom: 100px;
+    background-color: rgb(244, 254, 247);
+    margin-top: -50px;
+}
+
+#rizza{
+    width: 130px;
+    height: auto;
+}
+
+.box1{
+    background-color: #dcf6fd;
+    margin-left: 60px;
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: -150px;
+}
+
+.box2{
+    background-color: #dcf6fd;
+    margin-left: 60px;
+    border: 1px solid;
+    width: 250px;
+    height: 250px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 2px;
+    margin-top: -340px;
+}
+
+#dijari{
+    width: 130px;
+    height: auto;
+}
+
+#dukagjini{
+    width: 130px;
+    height: auto;
+}
+
+#meka{
+    width: 130px;
+    height: auto;
+}
+
+#alberti{
+    width: 130px;
+    height: auto;
+}
+
+#profesionet{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px ;
+}
+
+#firstHeading{
+    text-align: center;
+    background-color: rgb(240, 250, 242);
+    height: 50px;
+}
+
+.profesionet{
+    margin-top: -100px;
+    background-color: rgb(232, 244, 248);
+}
+
+.reklama{
+    width: 200px;
+    height: auto;
+    margin-top: -160px;
+}
+
+.reklamat{
+    margin-left: 50px;
+    width: 100%;
+    height: 50%;
+}
